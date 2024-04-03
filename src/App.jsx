@@ -1,16 +1,18 @@
 import React from 'react';
 import Post from './components/Post';
-import Comment from './components/Comment';
+import CreatePostForm from './components/CreatePostForm';
 function App(){ 
   return(
     <div>
       <h1>Fakebook!</h1>
       
-        {/* CreatePostForm */}
+        
+        <CreatePostForm />
         
         {/* Feed */}
         
-        <Post/>
+        <Post postName="This is a test pasdadsdaost!"/>
+        <Post postName="This is a test pasdadsdaost!"/>
 
     </div>
   )

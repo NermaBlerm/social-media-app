@@ -8,13 +8,13 @@ export default function Post(props) {
   }
   return (
     <>
-      <h3>{props.content}</h3>
+      <h3>{props.postName}</h3>
       <p>Likes: {likes}</p>
       <button onClick={handleLike}>Like</button>
       <p>Comments: </p>
-      <Comment content="This is a test comment!"/>
-      <Comment content="This is another test comment!" />
-      <Comment content="The Mitochondria is the Powerhouse of the Cell." />
+      <Comment description="This is a test comment!"/>
+      <Comment description="This is another test comment!" />
+      <Comment description="This is yet another test comment!" />
     </>
   );
 }
